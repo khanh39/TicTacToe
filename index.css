@@ -39,3 +39,14 @@ input{
    border:1px transparent black;
    border-radius:5px;
 }
+
+#restartButton{
+    margin-top:20px;
+    margin-left:55px;
+   width:250px;
+   font-size:25px;
+   border:1px solid grey;
+   border-radius:15px;
+   background:linear-gradient(black , gold , silver);
+
+}
