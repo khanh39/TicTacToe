@@ -26,11 +26,11 @@ document.getElementById("btn7").value == "X" || document.getElementById("btn2").
 document.getElementById("btn8").value == "X" || document.getElementById("btn3").value == "X" && document.getElementById("btn6").value == "X" &&
 document.getElementById("btn9").value == "X"){
 
-var output = document.getElementById("outtput");
- output.innerHTML = "<b><i>X</i></b> is the winner!"
- playerSwitch = 1;
- resetGame();
-  }else if(
+   var output = document.getElementById("outtput");
+   output.innerHTML = "<b><i>X</i></b> is the winner!"
+   playerSwitch = 1;
+   resetGame();
+    }else if(
 document.getElementById("btn1").value == "O" && document.getElementById("btn2").value == "O" &&
 document.getElementById("btn3").value == "O" || document.getElementById("btn4").value == "O" && document.getElementById("btn5").value == "O" &&
 document.getElementById("btn6").value == "O" || document.getElementById("btn7").value == "O" && document.getElementById("btn8").value == "O" &&
@@ -41,11 +41,14 @@ document.getElementById("btn7").value == "O" || document.getElementById("btn2").
 document.getElementById("btn8").value == "O" || document.getElementById("btn3").value == "O" && document.getElementById("btn6").value == "O" &&
 document.getElementById("btn9").value == "O"){
 
-var output = document.getElementById("outtput");
-output.innerHTML = "<b><i>O</i></b> is the winner!"
+   var output = document.getElementById("outtput");
+   output.innerHTML = "<b><i>O</i></b> is the winner!"
 
-playerSwitch = 1;
-resetGame();
+   playerSwitch = 1;
+   resetGame();
+}//End else if..................
+
+}//End function.................
 
 function resetGame(){
 document.getElementById("btn1").value = "";
@@ -63,6 +66,8 @@ document.getElementById("btn3").disabled = ""; document.getElementById("btn4").d
 document.getElementById("btn6").disabled = ""; document.getElementById("btn7").disabled = ""; document.getElementById("btn8").disabled = "";
 document.getElementById("btn9").disabled = "";
 }//End of resetGame function....
+
+};//End of main function............
 
 var resetGame = function(){
 document.getElementById("btn1").value = ""; document.getElementById("btn2").value = "";

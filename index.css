@@ -1,7 +1,8 @@
 body {
 margin:auto;
 background:radial-gradient(black , silver);
-{
+
+}
 
 h1{
    text-align:center;
@@ -19,6 +20,7 @@ h1{
    flex-wrap:wrap;
    background-color:black;
 }
+
 
 input{
    width:80px;
