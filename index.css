@@ -9,3 +9,13 @@ h1{
    color:white;
    text-shadow:5px 2px 5px black;
 }
+
+#tic_tac_box{
+   margin:auto;
+   width:258px;
+   height:258px;
+   border:1px solid grey;
+   display:flex;
+   flex-wrap:wrap;
+   background-color:black;
+}
