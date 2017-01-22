@@ -13,3 +13,16 @@ if(playerSwitch === 1){
    playerSwitch -= 1;
    winner();
 }
+
+function winner(){
+if(
+document.getElementById("btn1").value == "X" && document.getElementById("btn2").value == "X" &&
+document.getElementById("btn3").value == "X" || document.getElementById("btn4").value == "X" && document.getElementById("btn5").value == "X" &&
+document.getElementById("btn6").value == "X" || document.getElementById("btn7").value == "X" && document.getElementById("btn8").value == "X" &&
+document.getElementById("btn9").value == "X" || document.getElementById("btn1").value == "X" && document.getElementById("btn5").value == "X" &&
+document.getElementById("btn9").value == "X" || document.getElementById("btn3").value == "X" && document.getElementById("btn5").value == "X" &&
+document.getElementById("btn7").value == "X" || document.getElementById("btn1").value == "X" && document.getElementById("btn4").value == "X" &&
+document.getElementById("btn7").value == "X" || document.getElementById("btn2").value == "X" && document.getElementById("btn5").value == "X" &&
+document.getElementById("btn8").value == "X" || document.getElementById("btn3").value == "X" && document.getElementById("btn6").value == "X" &&
+document.getElementById("btn9").value == "X"){
+   
