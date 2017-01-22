@@ -63,3 +63,18 @@ document.getElementById("btn3").disabled = ""; document.getElementById("btn4").d
 document.getElementById("btn6").disabled = ""; document.getElementById("btn7").disabled = ""; document.getElementById("btn8").disabled = "";
 document.getElementById("btn9").disabled = "";
 }//End of resetGame function....
+
+var resetGame = function(){
+document.getElementById("btn1").value = ""; document.getElementById("btn2").value = "";
+document.getElementById("btn3").value = ""; document.getElementById("btn4").value = ""; document.getElementById("btn5").value = "";
+document.getElementById("btn6").value = ""; document.getElementById("btn7").value = ""; document.getElementById("btn8").value = "";
+document.getElementById("btn9").value = "";
+
+document.getElementById("btn1").disabled = ""; document.getElementById("btn2").disabled = "";
+document.getElementById("btn3").disabled = ""; document.getElementById("btn4").disabled = ""; document.getElementById("btn5").disabled = "";
+document.getElementById("btn6").disabled = ""; document.getElementById("btn7").disabled = ""; document.getElementById("btn8").disabled = "";
+document.getElementById("btn9").disabled = "";
+
+var output = document.getElementById("outtput");
+   output.innerHTML = "";
+}//End of resetGame button function...
